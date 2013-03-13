@@ -33,15 +33,3 @@ abbr, acronym {
 	}
 
 /*-------------- Main Content ---------------*/
-
-nav li {
-	float: left;
-}
-
-#cta {
-	clear: both;
-}
-
-footer {
-	clear: both;
-}
