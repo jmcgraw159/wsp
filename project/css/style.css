@@ -46,3 +46,7 @@ nav li{
 nav a {
 	text-decoration: none;
 }
+
+input, select, textarea {
+	display: block;
+}
