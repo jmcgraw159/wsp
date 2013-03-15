@@ -33,3 +33,16 @@ abbr, acronym {
 	}
 
 /*-------------- Main Content ---------------*/
+.business-column {
+	float: left;
+}
+
+nav li{
+	width: 100px;
+	float: left;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+}

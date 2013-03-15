@@ -3,65 +3,80 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Get Gaming Orlando</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- 1140px Grid styles for IE -->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+		<!-- The 1140px Grid - http://cssgrid.net/ -->
+		<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+		<!-- Your styles -->
 		<link rel="stylesheet" href="css/style.css">
+		<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+		<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 	</head>
 	<body>
-		<header>
-			<a href="#"><h1>Get Gaming Orlando</h1>
-				<h2 class="slogan">Orlando's Console Repair Experts</h2></a>
-			<div class="business">
-				<div class="business-column">
-					<h2>Our Location:</h2>
-					<address>
-						320 South Bumby Ave<br/>
-						Suite 3<br/>
-						Orlando, FL 32803<br/>
-						407.963.8019<br/>
-					</address>
-				</div>
-				<div class="business-column">
-					<h2>Our Hours:</h2>
-					<ul>
-						<li>Mon: 3pm - 7pm</li>
-						<li>Tues - Fri: 10am - 5pm</li>
-						<li>Sat: 11am - 4pm</li>
-						<li>Sun: Closed</li>
-					</ul>
-				</div>
-			</div>	
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="repairs.html">Repairs</a></li>
-					<li><a href="coupons.html">Coupons</a></li>
-					<li><a href="faqs.html">FAQs</a></li>
-					<li><a href="location.html">Location</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-		<div id="coupons-content">
-			<h3>Current Specials</h3>
-			<div class="coupon">
-				<h4>$5 off any repair!</h4>
-				<small>Can not be used with any other offer.</small>
-			</div>
-			<div class="coupon">
-				<h4>10% off to College Students!</h4>
-				<small>Must bring in a valid College ID. Can not be used with any other offer.</small>
-			</div>
-			<div class="coupon">
-				<h4>15% off for first time customers!</h4>
-				<small>Can not be used with any other offer.</small>
-			</div>
-		</div>
-		<footer>
-			<small>&copy; 2013 Get Gaming Orlando. All rights reserved.</small>
-			<div class="social">
-				<a href="#">Myspace</a>
-				<a href="#">Facebook</a>
-				<a href="#">Twitter</a>
-			</div>
-		</footer>
+		<div class="container">
+			<header>
+				<div class="row">
+					<a class="sixcol" href="index.html"><h1>Get Gaming Orlando</h1></a>
+					<div class="business sixcol last">
+						<div class="business-column">
+							<h2>Our Location:</h2>
+							<address>
+								320 South Bumby Ave<br/>
+								Suite 3<br/>
+								Orlando, FL 32803<br/>
+								407.963.8019<br/>
+							</address>
+						</div><!-- end of first column -->
+						<div class="business-column">
+							<h2>Our Hours:</h2>
+							<ul>
+								<li>Mon: 3pm - 7pm</li>
+								<li>Tues - Fri: 10am - 5pm</li>
+								<li>Sat: 11am - 4pm</li>
+								<li>Sun: Closed</li>
+							</ul>
+						</div><!-- end of last column -->
+					</div><!-- end of buisness -->
+				</div><!-- end of row -->
+				<div class="row">
+					<nav class="twelvecol">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="repairs.html">Repairs</a></li>
+							<li><a href="coupons.html">Coupons</a></li>
+							<li><a href="faqs.html">FAQs</a></li>
+							<li><a href="location.html">Location</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div><!-- end of row -->	
+			</header>
+		<div id="coupons-content" class="row">
+				<h3 class="twelvecol">Current Specials</h3>
+				<div class="coupon fourcol">
+					<h4>$5 off any repair!</h4>
+					<small>Can not be used with any other offer.</small>
+				</div><!-- end of coupon -->
+				<div class="coupon fourcol">
+					<h4>10% off to College Students!</h4>
+					<small>Must bring in a valid College ID. Can not be used with any other offer.</small>
+				</div><!-- end of coupon -->
+				<div class="coupon fourcol last">
+					<h4>15% off for first time customers!</h4>
+					<small>Can not be used with any other offer.</small>
+				</div><!-- end of coupon -->
+		</div><!-- end of row -->
+		<div class="row">
+				<footer>
+					<small class="sixcol">&copy; 2013 Get Gaming Orlando. All rights reserved.</small>
+					<div class="social sixcol last">
+						<a href="#">Myspace</a>
+						<a href="#">Facebook</a>
+						<a href="#">Twitter</a>
+					</div><!-- end of social -->
+				</footer>
+			</div><!-- end of row -->	
+		</div><!-- end of container	 -->
 	</body>
 </html>
