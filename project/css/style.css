@@ -33,8 +33,47 @@ abbr, acronym {
 	}
 
 /*-------------- Main Content ---------------*/
+html {
+	background-image: url(../img/bg-pattern.jpg);
+}
+
+a, p, address, ul {
+	color: #fdffe8;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background-color: #bcc985;
+	overflow: hidden;
+}
+
+.logo {
+	background: url(../img/logo.jpg) no-repeat;
+	height: 84px;
+	text-indent: -9999px;
+}
+
+.business {
+	float: right;
+	margin-right: 0;
+}
+
 .business-column {
 	float: left;
+	margin-left: 150px;
+	padding-right: 50px;
+}
+
+.business-column:last-child {
+	padding-right: 0;
+	margin-left: 0;
+}
+
+nav {
+	margin: 30px 0;
 }
 
 nav li{
@@ -43,10 +82,33 @@ nav li{
 	text-align: center;
 }
 
-nav a {
-	text-decoration: none;
+#cta {
+	background: url(../img/cta.jpg) no-repeat;
+	height: 368px;
+}
+
+#cta h3 {
+	text-align: center;
+	color: #bcc985;
+}
+
+.column {
+	background-color: #373737;
+	height: 345px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.column h4 {
+	color: #bcc985;
+	text-align: center;
 }
 
 input, select, textarea {
 	display: block;
+}
+
+footer {
+	background-color: #5d6663;
+	height: 100px;
 }
