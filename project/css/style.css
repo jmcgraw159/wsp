@@ -293,7 +293,9 @@ nav a {
 }
 
 .column p {
-	padding: 10px 10px 0 20px;
+	padding: 10px 5px 0;
+	line-height: 22px;
+	margin-left: 5px;
 }
 
 /*------------------ Form Field -------------------*/
@@ -308,4 +310,29 @@ footer {
 	background-color: #5d6663;
 	font-size: 14px;
 	line-height: 100px;
+}
+
+.social a {
+	display: block;
+	padding-top: 20px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 36px;
+	height: 20px;
+	float: left;
+	padding-top: 32%;
+	margin-left: 15px;
+}
+
+.myspace {
+	background: url(../img/myspace.gif) no-repeat 50%;
+}
+
+.facebook {
+	background: url(../img/facebook.gif) no-repeat 50%;
+}
+
+.twitter {
+	background: url(../img/twitter.gif) no-repeat 50%;
 }
