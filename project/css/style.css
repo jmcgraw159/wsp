@@ -48,14 +48,15 @@ abbr, acronym {
 
 html {
 	background-image: url(../img/bg-pattern.jpg);
+	font: 18px Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, nav {
-	font-family: 'BebasNeueRegular';
+	font-family: 'BebasNeueRegular', Helvetica, Arial, sans-serif;
 
 }
 
-a, p, address, ul {
+a, p, small {
 	color: #fdffe8;
 }
 
@@ -63,9 +64,14 @@ a {
 	text-decoration: none;
 }
 
+/*------------------ Header -------------------*/
 header {
 	background-color: #bcc985;
 	overflow: hidden;
+	padding: 20px 0;
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0, .2);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0, .2);
+	box-shadow: 0 2px 5px rgba(0,0,0, .2);
 }
 
 .logo {
@@ -77,54 +83,225 @@ header {
 .business {
 	float: right;
 	margin-right: 0;
+	color: #404040;
+}
+
+.business h2 {
+	font-size: 18px;
 }
 
 .business-column {
 	float: left;
-	padding-right: 30px;
+	font-size: 16px;
+	padding-right: 15px;
 }
 
 .business-column:last-child {
 	padding-right: 0;
 }
 
+/*------------------ Naviation -------------------*/
+
 nav {
 	margin: 30px 0;
 }
 
-nav li{
-	width: 100px;
-	float: left;
-	text-align: center;
+nav ul {
+	width: 540px;
+	margin: 0 auto;
 }
+
+nav li {
+	float: left;
+	width: 85px;
+	text-align: center;
+	background: url('../img/nav2.png') no-repeat .35% 4.706%;
+	height: 63px;
+}
+
+nav li:hover {
+	background-position: .35% 87.059%;
+}
+
+nav a {
+	display: block;
+	height: 63px;
+	text-indent: -9999em;
+}
+
+.home-active {
+	background-position: .35% 87.059%;
+}
+
+/*----- Repairs -----*/
+
+.repairs {
+	background-position: 20.224% 4.706%;
+	width: 90px;
+}
+
+.repairs:hover {
+	background-position: 20.224% 87.059%;
+}
+
+.repairs-active {
+	background-position: 20.224% 87.059%;
+}
+
+/*----- FAQS -----*/
+
+.faqs {
+	background-position: 40% 4.706%;
+	width: 70px;
+}
+
+.faqs:hover {
+	background-position: 40% 87.059%;
+}
+
+.faqs-active {
+	background-position: 40% 87.059%;
+}
+
+/*----- Coupons -----*/
+
+.coupons {
+	background-position: 59.69% 4.706%;
+	width: 100px;
+}
+
+.coupons:hover {
+	background-position: 59.69% 87.059%;
+}
+
+.coupons-active {
+	background-position: 59.69% 87.059%;
+}
+
+/*----- Location -----*/
+
+.location {
+	background-position: 79.142% 4.706%;
+	width: 100px;
+}
+
+.location:hover {
+	background-position: 79.142% 87.059%;
+}
+
+.location-active {
+	background-position: 79.142% 87.059%;
+}
+
+/*----- Contact -----*/
+
+.contact {
+	background-position: 98.456% 4.706%;
+	width: 95px;
+}
+
+.contact:hover {
+	background-position: 98.456% 87.059%;
+}
+
+.contact-active {
+	background-position: 98.456% 87.059%;
+}
+
+/*------------------ CTA -------------------*/
 
 #cta {
 	background: url(../img/cta.jpg) no-repeat;
 	height: 368px;
+	text-shadow: 0 1px 0 rgba(0,0,0, .3);
+
 }
 
 #cta h3 {
 	text-align: center;
 	color: #bcc985;
+	font-size: 71px;
+	padding-top: 5%;
+}
+
+#cta p {
+	width: 600px;
+	margin: 0 auto 20px;
+	text-align: center;
+}
+
+#cta a {
+	display: block;
+	width: 150px;
+	background: #dd7033; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dd7033 0%, #c33f1d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dd7033), color-stop(100%,#c33f1d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dd7033 0%,#c33f1d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dd7033 0%,#c33f1d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dd7033 0%,#c33f1d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dd7033 0%,#c33f1d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd7033', endColorstr='#c33f1d',GradientType=0 ); /* IE6-9 */
+	border: 1px solid #d05728;
+	line-height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 0 0 5px rgba(0,0,0, .2);
+}
+
+/*------------------ Info Boxes -------------------*/
+
+#repair-info h4{
+	background: url(../img/controller.png) no-repeat 50% 0;
+}
+
+#price-info h4{
+	background: url(../img/price.png) no-repeat 50% 0;
+}
+
+#customer-info h4{
+	background: url(../img/person.png) no-repeat 50% 0;
 }
 
 .column {
-	background-color: #373737;
+	background: #3d3d3d; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #3d3d3d 0%, #313131 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#3d3d3d), color-stop(100%,#313131)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #3d3d3d 0%,#313131 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #3d3d3d 0%,#313131 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #3d3d3d 0%,#313131 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #3d3d3d 0%,#313131 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', endColorstr='#313131',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	height: 345px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	border: 1px solid #2c2c2c;
+	margin: 30px 40px 30px 0;
 }
 
 .column h4 {
 	color: #bcc985;
 	text-align: center;
+	margin-top: 30px;
+	font-size: 22px;
+	padding-top: 111px;
 }
+
+.column p {
+	padding: 10px 10px 0 20px;
+}
+
+.column:last-child {
+	margin-right: 0;
+}
+
+/*------------------ Form Field -------------------*/
 
 input, select, textarea {
 	display: block;
 }
 
+/*------------------ Footer -------------------*/
+
 footer {
 	background-color: #5d6663;
-	height: 100px;
+	font-size: 14px;
+	line-height: 100px;
 }
