@@ -32,7 +32,7 @@ abbr, acronym {
 	border: 0;
 	}
 
-/*-------------- Main Content ---------------*/
+/*-------------- General Selectors ---------------*/
 
 @font-face {
     font-family: 'BebasNeueRegular';
@@ -56,12 +56,21 @@ h1, h2, h3, h4, h5, nav {
 
 }
 
-a, p, small {
+h3, h4, h5, th {
+	color: #bcc985;
+	text-align: center;
+}
+
+a, p, small, dd, td {
 	color: #fdffe8;
 }
 
 a {
 	text-decoration: none;
+}
+
+p {
+	line-height: 22px;
 }
 
 /*------------------ Header -------------------*/
@@ -294,11 +303,61 @@ nav a {
 
 .column p {
 	padding: 10px 5px 0;
-	line-height: 22px;
 	margin-left: 5px;
 }
 
-/*------------------ Form Field -------------------*/
+/*------------------ FAQs -------------------*/
+
+#faq-content dt {
+	color: #bcc985;
+}
+
+#faq-content dd {
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+
+#faq-content dt:nth-child(8) {
+	margin-top: -75px;
+}
+
+#faq-content dd:nth-child(9) {
+	margin-top: -55px;
+}
+
+#faq-content dt:nth-child(12) {
+	margin-top: -75px;
+}
+
+#faq-content dd:nth-child(13) {
+	margin-top: -55px;
+}
+
+/*------------------ Repairs -------------------*/
+table {
+	background-color: #5d6663;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+th, td {
+	height: 50px;
+}
+
+th, td {
+	border-right: 1px solid #3C3C3C;
+}
+
+th:last-child, td:last-child {
+	border-right: none;
+}
+
+.odd {
+	background-color: #6D7774;
+}
+
+
+/*------------------ Contact -------------------*/
 
 input, select, textarea {
 	display: block;
