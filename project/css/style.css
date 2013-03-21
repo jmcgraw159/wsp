@@ -48,21 +48,29 @@ abbr, acronym {
 
 html {
 	background-image: url(../img/bg-pattern.jpg);
-	font: 18px Helvetica, Arial, sans-serif;
+	font: 62.5% Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, nav {
+h1, h2, h3, h4, nav {
 	font-family: 'BebasNeueRegular', Helvetica, Arial, sans-serif;
 
 }
 
-h3, h4, h5, th {
+h5 {
+	text-align: center;
+}
+
+h3, h4, th {
 	color: #bcc985;
 	text-align: center;
 }
 
-a, p, small, dd, td {
+a, p, small, h5, dd {
 	color: #fdffe8;
+}
+
+a, p, h5, dt, dd {
+	font-size: 1.8em;
 }
 
 a {
@@ -97,12 +105,12 @@ header {
 }
 
 .business h2 {
-	font-size: 18px;
+	font-size: 1.2em;
 }
 
 .business-column {
 	float: left;
-	font-size: 16px;
+	font-size: 1.6em;
 	padding-right: 15px;
 }
 
@@ -233,7 +241,7 @@ nav a {
 #cta h3 {
 	text-align: center;
 	color: #bcc985;
-	font-size: 71px;
+	font-size: 7.1em;
 	padding-top: 5%;
 }
 
@@ -336,20 +344,29 @@ nav a {
 /*------------------ Repairs -------------------*/
 
 .console {
-	margin-right: 30px;
+	margin-bottom: 20px;
 }
 
-#repairs-content img {
-	max-width: 100%;
+.odd, .even {
+	padding: 5px;
+}
+
+.odd {
+	background-color: #5d6663;
+}
+
+.even {
+	background-color: #727C79;
 }
 
 #wii {
-	margin-top: 45px;
+	margin-top: 46px;
+	position: relative;
 }
 
 #psp {
 	margin-top: 70px;
-	padding-bottom: 40px
+	padding-bottom: 42px
 }
 
 #pspgo {
@@ -359,7 +376,7 @@ nav a {
 
 #computer {
 	margin-top: 40px;
-	padding-bottom: 10px
+	padding-bottom: 6px
 }
 
 /*------------------ Contact -------------------*/
@@ -372,7 +389,7 @@ input, select, textarea {
 
 footer {
 	background-color: #5d6663;
-	font-size: 14px;
+	font-size: 1.4em;
 	line-height: 100px;
 }
 
