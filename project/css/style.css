@@ -334,28 +334,33 @@ nav a {
 }
 
 /*------------------ Repairs -------------------*/
-table {
-	background-color: #5d6663;
-	margin-bottom: 20px;
-	text-align: center;
+
+.console {
+	margin-right: 30px;
 }
 
-th, td {
-	height: 50px;
+#repairs-content img {
+	max-width: 100%;
 }
 
-th, td {
-	border-right: 1px solid #3C3C3C;
+#wii {
+	margin-top: 45px;
 }
 
-th:last-child, td:last-child {
-	border-right: none;
+#psp {
+	margin-top: 70px;
+	padding-bottom: 40px
 }
 
-.odd {
-	background-color: #6D7774;
+#pspgo {
+	margin-top: 70px;
+	padding-bottom: 30px
 }
 
+#computer {
+	margin-top: 40px;
+	padding-bottom: 10px
+}
 
 /*------------------ Contact -------------------*/
 
