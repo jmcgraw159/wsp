@@ -89,7 +89,7 @@ p {
 header {
 	background-color: #bcc985;
 	overflow: hidden;
-	padding: 20px 0;
+	padding: 1.4035088% 0;
 	-webkit-box-shadow: 0 2px 5px rgba(0,0,0, .2);
 	-moz-box-shadow: 0 2px 5px rgba(0,0,0, .2);
 	box-shadow: 0 2px 5px rgba(0,0,0, .2);
@@ -98,8 +98,8 @@ header {
 .logo {
 	background: url(../img/logo.jpg) no-repeat;
 	height: 84px;
-	text-indent: -9999px;
-	margin-top: 15px;
+	text-indent: -9999em;
+	margin-top: 2.0107239%;
 }
 
 .business {
@@ -115,7 +115,7 @@ header {
 .business-column {
 	float: left;
 	font-size: 1.6em;
-	padding-right: 15px;
+	padding-right: 4.2735043%;
 }
 
 .business-column:last-child {
@@ -125,17 +125,17 @@ header {
 /*------------------ Naviation -------------------*/
 
 nav {
-	margin: 30px 0;
+	margin: 2.6315789% 0;
 }
 
 nav ul {
-	width: 540px;
+	width: 47.3684211%;
 	margin: 0 auto;
 }
 
 nav li {
 	float: left;
-	width: 85px;
+	width: 15.7407407%;
 	text-align: center;
 	background: url(../img/nav.png) no-repeat .35% 4.706%;
 	height: 63px;
@@ -159,7 +159,7 @@ nav a {
 
 .repairs {
 	background-position: 20.224% 4.706%;
-	width: 90px;
+	width: 16.6666667%;
 }
 
 .repairs:hover {
@@ -174,7 +174,7 @@ nav a {
 
 .faqs {
 	background-position: 40% 4.706%;
-	width: 70px;
+	width: 12.962963%;
 }
 
 .faqs:hover {
@@ -189,7 +189,7 @@ nav a {
 
 .coupons {
 	background-position: 59.69% 4.706%;
-	width: 100px;
+	width: 18.5185185%;
 }
 
 .coupons:hover {
@@ -204,7 +204,7 @@ nav a {
 
 .location {
 	background-position: 79.142% 4.706%;
-	width: 100px;
+	width: 18.5185185%;
 }
 
 .location:hover {
@@ -219,7 +219,7 @@ nav a {
 
 .contact {
 	background-position: 98.456% 4.706%;
-	width: 95px;
+	width: 17.5925926%;
 }
 
 .contact:hover {
@@ -250,14 +250,14 @@ nav a {
 }
 
 #cta p {
-	width: 600px;
-	margin: 0 auto 20px;
+	width: 52.6315789%;
+	margin: 0 auto 1.754386%;
 	text-align: center;
 }
 
 #cta a {
 	display: block;
-	width: 150px;
+	width: 13.1578947%;
 	background: #dd7033; /* Old browsers */
 	background: -moz-linear-gradient(top,  #dd7033 0%, #c33f1d 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dd7033), color-stop(100%,#c33f1d)); /* Chrome,Safari4+ */
@@ -298,7 +298,7 @@ nav a {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', endColorstr='#313131',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	height: 345px;
 	border: 1px solid #2c2c2c;
-	margin: 30px 40px 30px 0;
+	margin: 2.5470085% 3.3960114% 2.5470085% 0;
 }
 
 .column:last-child {
@@ -308,14 +308,14 @@ nav a {
 .column h4 {
 	color: #bcc985;
 	text-align: center;
-	margin-top: 35px;
-	font-size: 22px;
-	padding-top: 115px;
+	margin-top: 9.97151%;
+	font-size: 2.2em;
+	padding-top: 32.7635328%;
 }
 
 .column p {
-	padding: 10px 5px 0;
-	margin-left: 5px;
+	padding: 2.8490028% 1.4245014% 0;
+	margin-left: 1.4245014%;
 }
 
 /*------------------ FAQs -------------------*/
@@ -326,29 +326,29 @@ nav a {
 
 #faq-content dd {
 	line-height: 22px;
-	margin-bottom: 15px;
+	margin-bottom: 1.3157895%;
 }
 
 #faq-content dt:nth-child(8) {
-	margin-top: -75px;
+	margin-top: -6.5789474%;
 }
 
 #faq-content dd:nth-child(9) {
-	margin-top: -55px;
+	margin-top: -4.8245614%;
 }
 
 #faq-content dt:nth-child(12) {
-	margin-top: -75px;
+	margin-top: -6.5789474%;
 }
 
 #faq-content dd:nth-child(13) {
-	margin-top: -55px;
+	margin-top: -4.8245614%;
 }
 
 /*------------------ Repairs -------------------*/
 
 .console {
-	margin-bottom: 20px;
+	margin-bottom: 1.754386%;
 }
 
 .console img {
@@ -356,7 +356,7 @@ nav a {
 }
 
 .odd, .even {
-	padding: 5px;
+	padding: 3.2679739%;
 }
 
 .odd {
@@ -370,7 +370,7 @@ nav a {
 /*------------------ Coupons -------------------*/
 
 #coupons-content {
-	margin-bottom: 20px;
+	margin-bottom: 1.4064698%;
 
 }
 
@@ -385,41 +385,55 @@ nav a {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', endColorstr='#313131',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	height: 200px;
 	border: 1px solid #2c2c2c;
-	margin-right: 20px;
+	margin-right: 1.754386%;
 }
 
 .coupon h4 {
-	padding-top: 80px;
+	padding-top: 22.7920228%;
 }
 
 .coupon small {
 	display: block;
-	width: 300px;
+	width: 85.4700855%;
 	text-align: center;
 	margin: 0 auto;
 }
 
+/*------------------ Location -------------------*/
+
+#location-content img {
+	margin: auto 4.3859649% auto 8.7719298%
+}
+
+#location-content p {
+	margin: 0 auto 1.754386%;
+	text-align: center;
+}
 
 /*------------------ Contact -------------------*/
 
 #contact-content {
-	margin-bottom: 20px;
+	margin-bottom: 1.4064698%;
 }
 
 .form-column {
-	width: 400px;
+	width: 26.3157895%;
 	float: left;
-	margin-left: 100px;
+	margin-left: 250px;
+}
+
+.even-column {
+	margin-left: 1.754386%;
 }
 
 label, input, select {
 	display: block;
-	width: 200px;
+	width: 100%;
 	margin: 0 auto;
 }
 
 input, select {
-	margin-bottom: 10px;
+	margin-bottom: 3.3333333%;
 	height: 25px;
 }
 
@@ -429,17 +443,18 @@ input, select, textarea {
 }
 
 textarea {
-	width: 700px;
-	margin-left: 200px;
-	margin-bottom: 10px;
+	width: 54.3859649%;
+	margin: auto auto .877193% 21.9298246%;
 }
 
 .comments label {
-	margin-left: 203px;
+	float: left;
+	margin-left: 21.9298246%;
 }
 
 #submit {
-	margin-left: 700px;
+	width: 8.7719298%;
+	margin-left: 67.5438596%;
 }
 
 /*------------------ Footer -------------------*/
@@ -452,15 +467,14 @@ footer {
 
 .social a {
 	display: block;
-	padding-top: 20px;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
-	width: 36px;
+	width: 14.3426295%;
 	height: 20px;
 	float: left;
 	padding-top: 32%;
-	margin-left: 15px;
+	margin-left: 5.9760956%;
 }
 
 .myspace {
