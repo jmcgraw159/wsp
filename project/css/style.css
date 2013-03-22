@@ -504,7 +504,11 @@ footer {
 
 /*------------------ Media Queries -------------------*/
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 380px) {
+	.logo {
+		background: url(../img/logo-min.jpg) no-repeat;
+	}
+
 	.business {
 		font-size: .6em;
 	}
@@ -514,18 +518,16 @@ footer {
 	}
 
 	nav {
-		margin: 10% auto;
+		margin: 10% auto 0;
 	}
 
 	nav ul {
 		width: 100%;
-		padding-left: 5%;
-
 	}
 
 	nav li {
 		background-image: none;
-		padding: auto 5%;
+		padding: 0 1%;
 	}
 
 	nav a {
@@ -534,23 +536,27 @@ footer {
 	}
 
 	.repairs {
-		width: none;
+		width: auto;
 	}
 
 	.faqs {
-		width: none;
+		width: auto;
 	}
 
 	.coupons {
-		width: none;
+		width: auto;
 	}
 
 	.location {
-		width: none;
+		width: auto;
 	}
 
 	.contact {
-		width: none;
+		width: auto;
+	}
+
+	#shadow {
+		box-shadow: none;
 	}
 
 	#cta h3 {
@@ -573,22 +579,21 @@ footer {
 		font-size: .9em;
 	}
 
-	.social a {
-		padding-top: 2%;
-		margin: auto auto 5% 13%;
-	}
-
 	h3 {
 		margin: 4% auto 5%;
-		font-size: 3.6em;
+		font-size: 2.0em;
+	}
+
+	h4 {
+		font-size: 1.8em;
 	}
 
 	h5 {
-		font-size: 1.6em;
+		font-size: 1.4em;
 	}
 
 	.console img {
-		margin-left: 30%;
+		margin-left: 25%;
 	}
 
 	#faq-content dt:nth-child(8) {
@@ -612,7 +617,7 @@ footer {
 	}
 
 	#location-content p {
-	font-size: 1.4em;
+	font-size: 1.2em;
 	}
 
 	.form-column {
@@ -647,8 +652,18 @@ footer {
 	}
 
 	#submit {
+		height: 50px;
 		width: 80%;
 		margin-left: 5%;
+	}
+
+	footer small {
+		font-size: .6em;
+	}
+
+	.social a {
+		padding-top: 2%;
+		margin: auto auto 5% 13%;
 	}
 	
 }
