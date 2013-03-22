@@ -504,9 +504,95 @@ footer {
 
 /*------------------ Media Queries -------------------*/
 
+@media screen and (max-width: 768px) {
+	.business-column {
+		font-size: 1.4em;
+		margin-top: 10%;
+		padding-right: .4%;
+	}
+
+	nav ul{
+		width: 70%;
+	}
+
+	 h3 {
+	 	margin: 2%;
+	 }
+
+	#shadow {
+		box-shadow: none;
+	}
+
+	#cta {
+		width: 95%;
+	}
+
+	#cta h3 {
+		margin: 5% auto;
+	}
+
+	#cta p {
+		width: 70%;
+	}
+
+	#cta a {
+		width: 20%;
+	}
+
+	.column {
+		margin-right: .9%;
+	}
+
+	.column h4 {
+		padding-top: 50%;
+	}
+
+	.coupon small {
+		font-size: 1.4em;
+	}
+
+	#location-content img {
+		margin-left: 20%;
+	}
+
+	#location-content p {
+		width: 80%;
+		margin-left: 5%;
+	}
+
+	iframe {
+		margin-left: 20%;
+	}
+
+	form {
+		margin-left: -10%;
+	}
+
+	#location-content small {
+		display: none;
+	}
+
+	textarea {
+		margin-left: 33%;
+	}
+
+	.comments label {
+		margin-left: 33%;
+	}
+
+	#submit {
+		width: 20%;
+	}
+
+	.social a {
+		padding-top: 40%;
+	}
+
+}
+
 @media screen and (max-width: 380px) {
 	.logo {
-		background: url(../img/logo-min.jpg) no-repeat;
+		background: url(../img/logo-380.jpg) no-repeat;
 	}
 
 	.business {
@@ -620,6 +706,10 @@ footer {
 	font-size: 1.2em;
 	}
 
+	iframe {
+		margin-left: 0;
+	}
+
 	.form-column {
 	width: 90%;
 	float: none;
@@ -657,6 +747,10 @@ footer {
 		margin-left: 5%;
 	}
 
+	dd, dt {
+		font-size: 1.4em;
+	}
+
 	footer small {
 		font-size: .6em;
 	}
@@ -666,4 +760,36 @@ footer {
 		margin: auto auto 5% 13%;
 	}
 	
+}
+
+@media screen and (max-width: 320px) {
+	.logo {
+		background: url(../img/logo-320.jpg) no-repeat;
+	}
+
+	.business {
+		font-size: .5em;
+	}
+
+	.business-column {
+		padding-right: 3%;
+	}
+
+	nav a {
+		font-size: 1.2em;
+	}
+
+	.column h4 {
+		padding-top: 50%;
+
+	}
+
+	footer small {
+		font-size: .5em;
+	}
+
+	dd, dt {
+		font-size: 1.2em;
+	}
+
 }
