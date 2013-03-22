@@ -426,6 +426,10 @@ nav a {
 	margin-left: 1.754386%;
 }
 
+label {
+	font-size: 1.4em;
+}
+
 label, input, select {
 	display: block;
 	width: 100%;
@@ -453,8 +457,17 @@ textarea {
 }
 
 #submit {
+	color: #fdffe8;
 	width: 8.7719298%;
 	margin-left: 67.5438596%;
+	background: #dd7033; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dd7033 0%, #c33f1d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dd7033), color-stop(100%,#c33f1d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dd7033 0%,#c33f1d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dd7033 0%,#c33f1d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dd7033 0%,#c33f1d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dd7033 0%,#c33f1d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd7033', endColorstr='#c33f1d',GradientType=0 ); /* IE6-9 */
 }
 
 /*------------------ Footer -------------------*/
@@ -487,4 +500,155 @@ footer {
 
 .twitter {
 	background: url(../img/twitter.gif) no-repeat 50%;
+}
+
+/*------------------ Media Queries -------------------*/
+
+@media screen and (max-width: 450px) {
+	.business {
+		font-size: .6em;
+	}
+
+	.home {
+		display: none;
+	}
+
+	nav {
+		margin: 10% auto;
+	}
+
+	nav ul {
+		width: 100%;
+		padding-left: 5%;
+
+	}
+
+	nav li {
+		background-image: none;
+		padding: auto 5%;
+	}
+
+	nav a {
+		text-indent: 0;
+		font-size: 1.4em;
+	}
+
+	.repairs {
+		width: none;
+	}
+
+	.faqs {
+		width: none;
+	}
+
+	.coupons {
+		width: none;
+	}
+
+	.location {
+		width: none;
+	}
+
+	.contact {
+		width: none;
+	}
+
+	#cta h3 {
+		padding-top: 20%;
+		font-size: 3.5em;
+		margin-bottom: 2%;
+	}
+
+	#cta p {
+		font-size: .9em;
+		width: 90%;
+	}
+
+	#cta a {
+		font-size: .9em;
+		width: 90%;
+	}
+
+	.column p {
+		font-size: .9em;
+	}
+
+	.social a {
+		padding-top: 2%;
+		margin: auto auto 5% 13%;
+	}
+
+	h3 {
+		margin: 4% auto 5%;
+		font-size: 3.6em;
+	}
+
+	h5 {
+		font-size: 1.6em;
+	}
+
+	.console img {
+		margin-left: 30%;
+	}
+
+	#faq-content dt:nth-child(8) {
+		margin: 7.5789474% auto;
+	}
+
+	#faq-content dd:nth-child(9) {
+		margin: 7.5789474% auto;
+	}
+
+	#faq-content dt:nth-child(12) {
+		margin: 7.5789474% auto;
+	}
+
+	#faq-content dd:nth-child(13) {
+		margin: 7.5789474% auto;
+	}
+
+	#location-content img {
+	margin: auto;
+	}
+
+	#location-content p {
+	font-size: 1.4em;
+	}
+
+	.form-column {
+	width: 90%;
+	float: none;
+	margin-left: 0;
+	}
+
+	.even-column {
+	margin-left: 0;
+	}
+
+	label, input, select {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	input, select {
+	margin-bottom: 5%;
+	height: 25px;
+	}
+
+	textarea {
+	width: 80%;
+	margin: 0 0 0 5%;
+	}
+
+	.comments label {
+		float: none;
+		margin-left: 5%;
+	}
+
+	#submit {
+		width: 80%;
+		margin-left: 5%;
+	}
+	
 }
