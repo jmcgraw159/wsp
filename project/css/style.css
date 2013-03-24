@@ -267,7 +267,7 @@ nav a {
 	background: linear-gradient(to bottom,  #dd7033 0%,#c33f1d 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd7033', endColorstr='#c33f1d',GradientType=0 ); /* IE6-9 */
 	border: 1px solid #d05728;
-	line-height: 50px;
+	padding: .75em;
 	margin: 0 auto;
 	text-align: center;
 	box-shadow: 0 0 5px rgba(0,0,0, .2);
@@ -504,11 +504,78 @@ footer {
 
 /*------------------ Media Queries -------------------*/
 
+@media screen and (max-width: 1023px) {
+	.logo {
+		margin-left: 2.5%;
+	}
+	.business {
+		margin-top: 2.5%;
+	}
+
+	nav ul {
+		width: 55%;
+	}
+
+	h3 {
+		margin: 2% auto;
+	}
+
+	#cta h3 {
+		margin: 5% auto 2%;
+	}
+
+	.column h4 {
+		padding-top: 40%;
+	}
+
+	#location-content img {
+		margin-left: 3%;
+	}
+
+	#location-content small {
+		display: none;
+	}
+
+	.comments label {
+		margin-left: 26%;
+	}
+
+	#contact-content textarea {
+		margin-left: 26%;
+	}
+
+	#submit {
+		margin-left: 71.6%;
+	}
+
+	footer small {
+		margin-left: 2%;
+	}
+
+	.row > small {
+		margin-right: 0;
+	}
+
+}
+
+@media screen and (max-width: 960px) {
+	#location-content img {
+		margin-left: 0;
+	}
+}
+
 @media screen and (max-width: 768px) {
+	.logo {
+		margin: 0 auto;
+	}
+
+	.business-column:first-child {
+		margin-left: -10%;
+	}
+
 	.business-column {
 		font-size: 1.4em;
-		margin-top: 10%;
-		padding-right: .4%;
+		padding-right: 2%;
 	}
 
 	nav ul{
@@ -536,7 +603,7 @@ footer {
 	}
 
 	#cta a {
-		width: 20%;
+		width: 40%;
 	}
 
 	.column {
@@ -545,6 +612,10 @@ footer {
 
 	.column h4 {
 		padding-top: 50%;
+	}
+
+	.column p {
+		padding: 3% 5%;
 	}
 
 	.coupon small {
@@ -590,13 +661,94 @@ footer {
 
 }
 
+@media screen and (max-width: 767px) {
+	#cta h3 {
+		font-size: 3.6em;
+	}
+
+	#cta p {
+		font-size: 1.4em;
+	}
+
+	#cta a {
+		font-size: 1.2em;
+	}
+	
+	.column h4 {
+		margin-top: 0;
+		padding-top: 20%
+	}
+
+	.column p {
+		line-height: .9em;
+	}
+
+	#repair-info h4{
+	background: url(../img/controller.png) no-repeat 50% 20%;
+}
+
+	#price-info h4{
+		background: url(../img/price.png) no-repeat 50% 20%;
+	}
+
+	#customer-info h4{
+		background: url(../img/person.png) no-repeat 50% 20%;
+	}
+
+	.row > small {
+		padding-left: 5%;
+	}
+
+	.social {
+		margin-bottom: 5%;
+	}
+
+	.social a:first-child {
+		margin-left: 40%;
+	}
+
+	.social a {
+		padding: 0 0;
+		margin: auto auto;
+		width: 10%;
+	}
+
+}
+
+@media screen and (max-width: 730px) {
+	.home {
+		display: none;
+	}
+
+	nav ul {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 730px) {
+	
+	nav ul {
+		width: 90%;
+	}
+}
+
 @media screen and (max-width: 380px) {
 	.logo {
 		background: url(../img/logo-380.jpg) no-repeat;
+		margin: auto auto -5% 0;
 	}
 
 	.business {
 		font-size: .6em;
+		margin: auto auto;
+	}
+
+	.business-column:first-child {
+		margin-left: 6%;
+	}
+
+	.business-column {
+		padding-right: 7%;
 	}
 
 	.home {
@@ -658,7 +810,6 @@ footer {
 
 	#cta a {
 		font-size: .9em;
-		width: 90%;
 	}
 
 	.column p {
@@ -765,6 +916,8 @@ footer {
 @media screen and (max-width: 320px) {
 	.logo {
 		background: url(../img/logo-320.jpg) no-repeat;
+		margin: auto auto -5% 0;
+		height: 66px;
 	}
 
 	.business {
@@ -772,7 +925,11 @@ footer {
 	}
 
 	.business-column {
-		padding-right: 3%;
+		/*padding-left: 7%;*/
+	}
+
+	nav li {
+		height: 44px;
 	}
 
 	nav a {
@@ -790,6 +947,25 @@ footer {
 
 	dd, dt {
 		font-size: 1.2em;
+	}
+
+	#contact-content textarea {
+		margin-left: 5%;
+	}
+
+	iframe {
+		display: none;
+	}
+
+	form {
+		margin-left: 3%
+	}
+
+	#location-content p:last-child {
+		font-size: .8em;
+		width: 95%;
+		margin-left: 0;
+		padding: 0 1%;
 	}
 
 }
