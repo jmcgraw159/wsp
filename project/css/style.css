@@ -728,14 +728,14 @@ footer {
 @media screen and (max-width: 730px) {
 	
 	nav ul {
-		width: 90%;
+		width: 82%;
 	}
 }
 
 @media screen and (max-width: 380px) {
 	.logo {
 		background: url(../img/logo-380.jpg) no-repeat;
-		margin: auto auto -5% 0;
+		margin: auto auto -5% 0;'
 	}
 
 	.business {
@@ -812,6 +812,10 @@ footer {
 		font-size: .9em;
 	}
 
+	.column h4 {
+		padding-top: 50%;
+	}
+
 	.column p {
 		font-size: .9em;
 	}
@@ -850,52 +854,55 @@ footer {
 	}
 
 	#location-content img {
-	margin: auto;
+		margin: auto;
 	}
 
 	#location-content p {
-	font-size: 1.2em;
+		font-size: 1.2em;
+	}
+
+	#location-content p:last-child {
+		font-size: .8em;
 	}
 
 	iframe {
-		margin-left: 0;
+		display: none;
 	}
 
 	.form-column {
-	width: 90%;
-	float: none;
-	margin-left: 0;
+		width: 90%;
+		float: none;
+		margin-left: 0;
 	}
 
 	.even-column {
-	margin-left: 0;
+		margin-left: 0;
 	}
 
 	label, input, select {
 		display: block;
-		width: 90%;
-		margin: 0 auto;
+		width: 67%;
+		margin: 0  0 0 29%;
 	}
 
 	input, select {
-	margin-bottom: 5%;
-	height: 25px;
+		margin-bottom: 5%;
+		height: 25px;
 	}
 
 	textarea {
-	width: 80%;
-	margin: 0 0 0 5%;
+		width: 60%;
 	}
 
 	.comments label {
 		float: none;
-		margin-left: 5%;
+		margin-left: 26%;
 	}
 
 	#submit {
 		height: 50px;
-		width: 80%;
-		margin-left: 5%;
+		width: 60%;
+		margin-left: 26%;
 	}
 
 	dd, dt {
@@ -938,7 +945,6 @@ footer {
 
 	.column h4 {
 		padding-top: 50%;
-
 	}
 
 	footer small {
@@ -958,7 +964,11 @@ footer {
 	}
 
 	form {
-		margin-left: 3%
+		margin-left: 3%;
+	}
+
+	textarea {
+		margin-left: 26% !important;
 	}
 
 	#location-content p:last-child {
@@ -966,6 +976,11 @@ footer {
 		width: 95%;
 		margin-left: 0;
 		padding: 0 1%;
+	}
+
+	.social {
+		width: 100% !important;
+		margin-left: -25% !important;
 	}
 
 }
