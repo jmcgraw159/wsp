@@ -412,54 +412,41 @@ nav a {
 
 /*------------------ Contact -------------------*/
 
-#contact-content {
-	margin-bottom: 1.4064698%;
-}
-
-.form-column {
-	width: 26.3157895%;
-	float: left;
-	margin-left: 250px;
-}
-
-.even-column {
-	margin-left: 1.754386%;
-}
-
-label {
-	font-size: 1.4em;
-}
-
-label, input, select {
-	display: block;
-	width: 100%;
+form {
+	width: 80%;
 	margin: 0 auto;
 }
 
-input, select {
-	margin-bottom: 3.3333333%;
-	height: 25px;
+label {
+	width: 20%;
+	float: left;
+	text-align: right;
+	clear: right;
 }
 
-input, select, textarea {
-	background-color: #5d6663;
-	border: none;
+label:nth-child(13) {
+	clear: left;
+}
+
+input, select {
+	float: left;
+	width: 20%;
+	clear: right;
+	margin-bottom: 2%;
+	padding: .5% 0;
 }
 
 textarea {
-	width: 54.3859649%;
-	margin: auto auto .877193% 21.9298246%;
-}
-
-.comments label {
-	float: left;
-	margin-left: 21.9298246%;
+	width: 60%;
+	margin: 0 auto;
 }
 
 #submit {
+	padding: .75em;
+	float: right;
+	margin: 2% 20% 2% auto;
 	color: #fdffe8;
 	width: 8.7719298%;
-	margin-left: 67.5438596%;
 	background: #dd7033; /* Old browsers */
 	background: -moz-linear-gradient(top,  #dd7033 0%, #c33f1d 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dd7033), color-stop(100%,#c33f1d)); /* Chrome,Safari4+ */
@@ -536,18 +523,6 @@ footer {
 		display: none;
 	}
 
-	.comments label {
-		margin-left: 26%;
-	}
-
-	#contact-content textarea {
-		margin-left: 26%;
-	}
-
-	#submit {
-		margin-left: 71.6%;
-	}
-
 	footer small {
 		margin-left: 2%;
 	}
@@ -618,6 +593,26 @@ footer {
 		padding: 3% 5%;
 	}
 
+	dd, dt {
+		font-size: 1.4em;
+	}
+
+	#faq-content dt:nth-child(8) {
+		margin: 0;
+	}
+
+	#faq-content dd:nth-child(9) {
+		margin: 0;
+	}
+
+	#faq-content dt:nth-child(12) {
+		margin: 0;
+	}
+
+	#faq-content dd:nth-child(13) {
+		margin: 0;
+	}
+
 	.coupon small {
 		font-size: 1.4em;
 	}
@@ -635,24 +630,8 @@ footer {
 		margin-left: 20%;
 	}
 
-	form {
-		margin-left: -10%;
-	}
-
 	#location-content small {
 		display: none;
-	}
-
-	textarea {
-		margin-left: 33%;
-	}
-
-	.comments label {
-		margin-left: 33%;
-	}
-
-	#submit {
-		width: 20%;
 	}
 
 	.social a {
@@ -662,6 +641,16 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+
+	.business-column:first-child {
+		margin-left: 0%;
+	}
+
+	h3 {
+		font-size: 3.0em;
+		margin: 5% auto;
+	}
+
 	#cta h3 {
 		font-size: 3.6em;
 	}
@@ -695,6 +684,35 @@ footer {
 		background: url(../img/person.png) no-repeat 50% 20%;
 	}
 
+	.coupon h4 {
+		padding-top: 10%;
+	}
+
+	.coupon small {
+		font-size: .9em;
+	}
+
+	input, label, select {
+		float: none;
+		display: block;
+		width: 50%;
+		margin: 1% auto;
+	}
+
+	label {
+		text-align: left;
+	}
+
+	textarea {
+		display: block;
+		width: 50%;
+	}
+
+	#submit {
+		margin-right: 25%;
+		width: 50%;
+	}
+
 	.row > small {
 		padding-left: 5%;
 	}
@@ -719,16 +737,61 @@ footer {
 	.home {
 		display: none;
 	}
-
-	nav ul {
-		width: 80%;
-	}
-}
-
-@media screen and (max-width: 730px) {
 	
 	nav ul {
 		width: 82%;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	nav {
+		margin: 10% auto 0;
+	}
+
+	nav ul {
+		width: 100%;
+		margin-left: 10%;
+	}
+
+	nav li {
+		background-image: none;
+		padding: 0 1%;
+	}
+
+	nav a {
+		text-indent: 0;
+		font-size: 1.8em;
+	}
+
+	.repairs {
+		width: auto;
+	}
+
+	.faqs {
+		width: auto;
+	}
+
+	.coupons {
+		width: auto;
+	}
+
+	.location {
+		width: auto;
+	}
+
+	.contact {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 465px) {
+
+	nav ul {
+		margin-left: 5%;
+	}
+
+	nav a {
+		font-size: 1.6em;
 	}
 }
 
@@ -751,46 +814,8 @@ footer {
 		padding-right: 7%;
 	}
 
-	.home {
-		display: none;
-	}
-
-	nav {
-		margin: 10% auto 0;
-	}
-
-	nav ul {
-		width: 100%;
-	}
-
-	nav li {
-		background-image: none;
-		padding: 0 1%;
-	}
-
 	nav a {
-		text-indent: 0;
-		font-size: 1.4em;
-	}
-
-	.repairs {
-		width: auto;
-	}
-
-	.faqs {
-		width: auto;
-	}
-
-	.coupons {
-		width: auto;
-	}
-
-	.location {
-		width: auto;
-	}
-
-	.contact {
-		width: auto;
+		font-size: 1.2em;
 	}
 
 	#shadow {
@@ -837,20 +862,8 @@ footer {
 		margin-left: 25%;
 	}
 
-	#faq-content dt:nth-child(8) {
-		margin: 7.5789474% auto;
-	}
-
-	#faq-content dd:nth-child(9) {
-		margin: 7.5789474% auto;
-	}
-
-	#faq-content dt:nth-child(12) {
-		margin: 7.5789474% auto;
-	}
-
-	#faq-content dd:nth-child(13) {
-		margin: 7.5789474% auto;
+	.coupon h4 {
+		padding-top: 20%;
 	}
 
 	#location-content img {
@@ -869,44 +882,31 @@ footer {
 		display: none;
 	}
 
-	.form-column {
-		width: 90%;
-		float: none;
-		margin-left: 0;
+	dd, dt {
+		font-size: 1.4em;
 	}
 
-	.even-column {
-		margin-left: 0;
+	form {
+		width: 90%;
+		margin: 0 auto;
 	}
 
 	label, input, select {
-		display: block;
-		width: 67%;
-		margin: 0  0 0 29%;
+		width: 80%;
 	}
 
-	input, select {
-		margin-bottom: 5%;
-		height: 25px;
+	label {
+		text-align: left;
+		font-size: .9em;
 	}
 
 	textarea {
-		width: 60%;
-	}
-
-	.comments label {
-		float: none;
-		margin-left: 26%;
+		width: 83%;
 	}
 
 	#submit {
-		height: 50px;
-		width: 60%;
-		margin-left: 26%;
-	}
-
-	dd, dt {
-		font-size: 1.4em;
+		width: 80%;
+		margin-right: 15%;
 	}
 
 	footer small {
@@ -935,15 +935,12 @@ footer {
 		/*padding-left: 7%;*/
 	}
 
-	nav li {
-		height: 44px;
-	}
-
-	nav a {
-		font-size: 1.2em;
+	nav ul {
+		margin-left: 0;
 	}
 
 	.column h4 {
+		margin-top: 15%;
 		padding-top: 50%;
 	}
 
@@ -961,14 +958,6 @@ footer {
 
 	iframe {
 		display: none;
-	}
-
-	form {
-		margin-left: 3%;
-	}
-
-	textarea {
-		margin-left: 26% !important;
 	}
 
 	#location-content p:last-child {
