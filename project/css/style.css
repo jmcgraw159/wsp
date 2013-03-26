@@ -798,6 +798,10 @@ footer {
 		font-size: 1.8em;
 	}
 
+	nav a:hover, .repairs-active a, .faqs-active a, .coupons-active a, .location-active a, .contact-active a {
+		color: #D05728;
+	}
+
 	.repairs {
 		width: auto;
 	}
