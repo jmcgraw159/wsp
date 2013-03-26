@@ -409,6 +409,10 @@ nav a {
 	margin: auto 4.3859649% auto 8.7719298%
 }
 
+#location-content small {
+	display: none;
+}
+
 #location-content p {
 	margin: 0 auto 1.754386%;
 	text-align: center;
@@ -542,10 +546,6 @@ footer {
 		margin-left: 3%;
 	}
 
-	#location-content small {
-		display: none;
-	}
-
 	footer small {
 		margin-left: 2%;
 	}
@@ -652,10 +652,6 @@ footer {
 
 	iframe {
 		margin-left: 20%;
-	}
-
-	#location-content small {
-		display: none;
 	}
 
 	.social a {
