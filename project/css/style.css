@@ -456,6 +456,10 @@ input, select {
 	padding: .5% 0;
 }
 
+input:focus, textarea:focus {
+	box-shadow: 0 0 7px rgba(208,85,40, .5);
+}
+
 textarea {
 	width: 61%;
 	margin: 0 auto;
@@ -519,6 +523,7 @@ footer {
 }
 
 @media screen and (max-width: 1023px) {
+
 	.logo {
 		margin-left: 2.5%;
 	}
@@ -557,12 +562,14 @@ footer {
 }
 
 @media screen and (max-width: 960px) {
+
 	#location-content img {
 		margin-left: 0;
 	}
 }
 
 @media screen and (max-width: 768px) {
+
 	.logo {
 		margin: 0 auto;
 	}
@@ -701,7 +708,7 @@ footer {
 
 	#repair-info h4{
 	background: url(../img/controller.png) no-repeat 50% 20%;
-}
+	}
 
 	#price-info h4{
 		background: url(../img/price.png) no-repeat 50% 20%;
@@ -769,6 +776,7 @@ footer {
 }
 
 @media screen and (max-width: 730px) {
+
 	.home {
 		display: none;
 	}
@@ -779,6 +787,7 @@ footer {
 }
 
 @media screen and (max-width: 630px) {
+
 	nav {
 		margin: 10% auto 0;
 	}
@@ -1024,6 +1033,7 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+
 	.logo {
 		background: url(../img/logo-320.jpg) no-repeat;
 		margin: auto auto -5% 0;
