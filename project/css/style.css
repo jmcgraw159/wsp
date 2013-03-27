@@ -81,6 +81,7 @@ a {
 }
 
 p {
+	font-weight: 100;
 	line-height: 22px;
 }
 
@@ -318,7 +319,7 @@ nav a {
 }
 
 .column p {
-	padding: 2.8490028% 1.4245014% 0;
+	padding: 2.8490028% 4% 0;
 	margin-left: 1.4245014%;
 }
 
@@ -437,7 +438,7 @@ label:nth-child(13) {
 }
 
 input, textarea {
-	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0, .5);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0, .5);
 	-moz-box-shadow: inset 0 0 5px rgba(0,0,0, .5);
 	box-shadow: inset 0 0 5px rgba(0,0,0, .5);
 }
@@ -456,6 +457,8 @@ input, select {
 }
 
 input:focus, textarea:focus {
+	-webkit-box-shadow: 0 0 7px rgba(208,85,40, .5);
+	-moz-box-shadow: 0 0 7px rgba(208,85,40, .5);
 	box-shadow: 0 0 7px rgba(208,85,40, .5);
 }
 
@@ -467,7 +470,7 @@ textarea {
 #submit {
 	padding: .75em;
 	float: right;
-	margin: 2% 20% 2% auto;
+	margin: 2% 18% 2% auto;
 	color: #fdffe8;
 	width: 8.7719298%;
 	background: #dd7033; /* Old browsers */
@@ -565,6 +568,13 @@ footer {
 
 	#location-content img {
 		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	.column h4 {
+		padding-top: 55%;
 	}
 }
 
@@ -667,13 +677,6 @@ footer {
 
 }
 
-@media screen and (max-width: 800px) {
-
-	.column h4 {
-		padding-top: 55%;
-	}
-}
-
 @media screen and (max-width: 767px) {
 
 	.business-column:first-child {
@@ -753,6 +756,7 @@ footer {
 	#submit {
 		margin-right: 25%;
 		width: 50%;
+		padding: 2em 0 3em;
 	}
 
 	.row > small {
@@ -1016,7 +1020,6 @@ footer {
 	}
 
 	#submit {
-		padding-bottom: 2em;
 		width: 80%;
 		margin-right: 10%;
 	}
