@@ -909,10 +909,18 @@ footer {
 	}
 }
 
-@media screen and (max-width: 380px) {
+
+@media screen and (max-width: 410px) {
 
 	.logo {
 		background: url(../img/logo-380.jpg) no-repeat;
+	}
+}
+
+@media screen and (max-width: 380px) {
+
+	.logo {
+		background: url(../img/logo-320.jpg) no-repeat;
 		margin: auto auto -5% 0;
 	}
 
@@ -1033,6 +1041,13 @@ footer {
 		margin: auto auto 5% 13%;
 	}
 	
+}
+
+@media screen and (max-width: 353px) {
+
+	.business-column:first-child {
+		margin-left: 0;
+	}
 }
 
 @media screen and (max-width: 320px) {
